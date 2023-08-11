@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
 import Head from "next/head";
