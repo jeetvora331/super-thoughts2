@@ -1,6 +1,4 @@
 "use client";
-import "boxicons";
-
 import Message from "@/components/Message";
 import {
 	collection,
@@ -16,8 +14,6 @@ import { useEffect, useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { VscEdit } from "react-icons/vsc";
 import { auth, db } from "../../../utils/firebase";
-
-import React from "react";
 
 const page = () => {
 	const route = useRouter();
