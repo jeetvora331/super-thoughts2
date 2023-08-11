@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} h-full min-h-screen  px-4 mx-6 font-Inter md:max-w-3xl md:mx-auto bg-stone-100  pb-1 relative`}
+				className={`${inter.className} h-full min-h-screen px-4 mx-6 font-Inter md:max-w-3xl md:mx-auto bg-stone-100  pb-1 relative`}
 			>
 				<div className="">
 					<ToastContainer limit={2} />
