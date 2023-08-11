@@ -1,7 +1,5 @@
-// "use client";
 import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 import { Toaster } from "react-hot-toast";
 import { ToastContainer } from "react-toastify";
 import "../app/globals.css";

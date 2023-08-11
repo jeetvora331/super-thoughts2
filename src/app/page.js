@@ -1,16 +1,7 @@
 "use client";
-import { Metadata } from "next";
-
 import { Inter } from "@next/font/google";
-import Head from "next/head";
-import "../app/globals.css";
-import Message from "../components/Message";
-// import styles from "../styles/Home.module.css";
 import {
 	collection,
-	doc,
-	getDoc,
-	getDocs,
 	onSnapshot,
 	orderBy,
 	query,
@@ -18,6 +9,8 @@ import {
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { auth, db } from "../../utils/firebase";
+import "../app/globals.css";
+import Message from "../components/Message";
 
 export default function Home() {
 	const [allPosts, setAllPosts] = useState([]);
